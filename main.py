@@ -27,7 +27,7 @@ def keep_alive():
 # Bot Configuration
 BOT_TOKEN = "7816959898:AAG1IKGYIC1GYyB32Whz9qH9J1YtXANwZwY"
 CHAT_ID = "-1002899014663"
-messages_todo = 10
+messages_todo = 100
 
 def send_message(msg):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
